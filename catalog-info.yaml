@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-service
-  description: A demo service to showcase Backstage catalog
+  name: integration-gateway
+  description: A sample service for Backstage catalog PoC
   annotations:
-    github.com/project-slug: your-org/my-repo
+    github.com/project-slug: LeeFung/integration-gateway
 spec:
   type: service
-  lifecycle: production
-  owner: team-a
+  lifecycle: experimental
+  owner: user:default/lee-fung
