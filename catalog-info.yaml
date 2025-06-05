@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-service
+  description: A demo service to showcase Backstage catalog
+  annotations:
+    github.com/project-slug: your-org/my-repo
+spec:
+  type: service
+  lifecycle: production
+  owner: team-a
